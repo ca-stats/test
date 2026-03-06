@@ -1,0 +1,28 @@
+/* app/globals.css */
+@import "tailwindcss";
+
+@import 'react-grid-layout/css/styles.css';
+@import 'react-resizable/css/styles.css';
+
+@theme {
+  --color-primary: #1E40AF;
+  --color-secondary: #3B82F6;
+  --color-accent: #F59E0B;
+  --color-surface: #FFFFFF;
+  --color-background: #F8FAFC;
+  --color-text-primary: #1E3A8A;
+  --color-text-muted: #475569;
+
+  --font-sans: var(--font-fira-sans), sans-serif;
+  --font-mono: var(--font-fira-code), monospace;
+}
+
+:root {
+  --color-primary: #1E40AF;
+  --color-secondary: #3B82F6;
+  --color-accent: #F59E0B;
+  --color-background: #F8FAFC;
+  --color-surface: #FFFFFF;
+  --color-text: #1E3A8A;
+  --color-text-muted: #475569;
+}
